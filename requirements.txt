@@ -1,0 +1,20 @@
+# ============================================================
+# ReconAI — Semester 1 Dependencies
+# Install with: pip install -r requirements.txt
+# ============================================================
+
+# Core LLM framework
+langchain==0.3.25               # Main agent/chain framework
+langchain-google-genai==2.1.4   # Gemini API integration (includes google-generativeai)
+langchain-community==0.3.24     # Community tools (includes Tavily)
+langchain-core==0.3.60          # Core abstractions
+
+# Web search
+tavily-python==0.5.1            # Tavily search API client
+
+# UI
+streamlit==1.45.1               # Web app UI
+
+# Utilities
+python-dotenv==1.1.0            # Load API keys from .env file
+requests==2.32.3                # HTTP requests (used internally)
