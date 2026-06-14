@@ -4,7 +4,6 @@
 
 # --- CRITICAL: Never commit your real API keys ---
 .env
-.env.example
 
 # --- Python cache files ---
 __pycache__/
